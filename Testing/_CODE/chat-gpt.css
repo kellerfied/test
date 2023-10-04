@@ -1,0 +1,85 @@
+/* Reset some default browser styles */
+html, body, div, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set the default font and background color */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Style the navigation menu */
+nav {
+  background-color: #444;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* Style the main content area */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style headings and paragraphs */
+h1, h2, h3 {
+  color: #333;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Style links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Add additional styles as needed */
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Media queries for responsive design (add as needed) */
+
+@media (max-width: 768px) {
+  /* Add responsive styles here */
+}
+
+@media (max-width: 480px) {
+  /* Add additional responsive styles for smaller screens */
+}
